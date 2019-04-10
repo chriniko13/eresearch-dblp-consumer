@@ -1,0 +1,29 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+http://dblp.uni-trier.de/rec/bibtex/journals/jcs/BelsisFGS08.xml
+
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+<dblp>
+    <article key="journals/jcs/BelsisFGS08" mdate="2008-11-19">
+        <author>Petros Belsis</author>
+        <author>Kostas Fragos</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <title>
+        Applying effective feature selection techniques with hierarchical mixtures of experts for spam classification.
+        </title>
+        <pages>761-790</pages>
+        <year>2008</year>
+        <volume>16</volume>
+        <journal>Journal of Computer Security</journal>
+        <number>6</number>
+        <ee>http://dx.doi.org/10.3233/JCS-2008-0319</ee>
+        <url>db/journals/jcs/jcs16.html#BelsisFGS08</url>
+    </article>
+</dblp>

@@ -1,0 +1,65 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+http://dblp.uni-trier.de/rec/pers/s/Skourlas:Christos/xk
+
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+<dblpperson name="Christos Skourlas">
+    <dblpkey type="person record">homepages/65/4173</dblpkey>
+    <dblpkey>conf/pci/FragosS16</dblpkey>
+    <dblpkey>conf/pci/KampourakiVBS15</dblpkey>
+    <dblpkey>conf/pci/FragosS15</dblpkey>
+    <dblpkey>conf/pci/SkourlasDL15</dblpkey>
+    <dblpkey>journals/jsit/VosMTEGS14</dblpkey>
+    <dblpkey>journals/jsit/MetalidouMTEGS14</dblpkey>
+    <dblpkey>journals/jsit/AnagnostopoulosS14</dblpkey>
+    <dblpkey>conf/pci/FragosS14</dblpkey>
+    <dblpkey>journals/ijapuc/BelsisSG13</dblpkey>
+    <dblpkey>journals/ijmbl/MarinagiS13</dblpkey>
+    <dblpkey>conf/pci/VassisBSMT13</dblpkey>
+    <dblpkey>conf/pci/TsoukalasKS13</dblpkey>
+    <dblpkey>conf/petra/ZafeirisBS13</dblpkey>
+    <dblpkey>journals/isca/BelsisKMPS12</dblpkey>
+    <dblpkey>conf/pci/BelsisGMSV12</dblpkey>
+    <dblpkey>conf/pci/VassisBS12</dblpkey>
+    <dblpkey>conf/pci/VassisZSB12</dblpkey>
+    <dblpkey>journals/jitr/BelsisSG11</dblpkey>
+    <dblpkey>journals/scn/BelsisVS11</dblpkey>
+    <dblpkey>journals/jis/KaranikolasS10</dblpkey>
+    <dblpkey>journals/puc/VassisBSP10</dblpkey>
+    <dblpkey>journals/jcs/BelsisFGS09</dblpkey>
+    <dblpkey>journals/jss/KaranikolasNYS09</dblpkey>
+    <dblpkey>conf/petra/SkourlasBSTVM09</dblpkey>
+    <dblpkey>conf/petra/VassisBSG09</dblpkey>
+    <dblpkey>journals/jcs/BelsisFGS08</dblpkey>
+    <dblpkey>conf/iceis/KaranikolasSNY08</dblpkey>
+    <dblpkey>conf/mie/BelsisVSP08</dblpkey>
+    <dblpkey>conf/petra/VassisBSP08</dblpkey>
+    <dblpkey>series/sci/BelsisKMPS08</dblpkey>
+    <dblpkey>conf/adbis/KaranikolasNYS07</dblpkey>
+    <dblpkey>conf/asian/BelsisGST07</dblpkey>
+    <dblpkey>conf/iceis/AlevizosKPSB07</dblpkey>
+    <dblpkey>conf/trustbus/BelsisGST07</dblpkey>
+    <dblpkey>conf/icann/VassilasS06</dblpkey>
+    <dblpkey>conf/iceis/MarinagiAKS06</dblpkey>
+    <dblpkey>conf/kes/PaliourasANAS06</dblpkey>
+    <dblpkey>conf/nlucs/FragosS06</dblpkey>
+    <dblpkey>conf/nlucs/FragosS06a</dblpkey>
+    <dblpkey>conf/sac/BelsisFGS06</dblpkey>
+    <dblpkey>journals/ijpcc/MalatrasPBGSC05</dblpkey>
+    <dblpkey>conf/icps/MalatrasPBGSC05</dblpkey>
+    <dblpkey>conf/iwuc/BelsisMGSC05</dblpkey>
+    <dblpkey>conf/nlucs/FragosMS05</dblpkey>
+    <dblpkey>conf/trustbus/BelsisGMSC05</dblpkey>
+    <dblpkey>conf/iceis/BelsisGSD04</dblpkey>
+    <dblpkey>conf/iceis/HadjidiakosSA04</dblpkey>
+    <dblpkey>conf/nlucs/FragosMS04</dblpkey>
+    <dblpkey>conf/pakm/BelsisGMSC04</dblpkey>
+    <dblpkey>conf/iceis/KaranikolasS03</dblpkey>
+    <dblpkey>conf/wscg/MiaoulisPMS00</dblpkey>
+</dblpperson>

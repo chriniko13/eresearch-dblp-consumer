@@ -1,0 +1,796 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+
+{
+	"firstname":"Anastasios",
+	"initials":"",
+	"surname":"Tsolakidis"
+}
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+{
+  "operation-result": true,
+  "process-finished-date": "2017-06-21T18:54:33.574Z",
+  "requested-dblp-consumer-dto": {
+    "firstname": "Anastasios",
+    "initials": "",
+    "surname": "Tsolakidis"
+  },
+  "fetched-results-size": 1,
+  "fetched-results": {
+    "authorName=Anastasios Tsolakidis#urlpt=t/Tsolakidis:Anastasios": [
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": [
+          {
+            "key": "homepages/04/7556",
+            "mdate": "2009-11-24",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Home Page"
+              }
+            ],
+            "booktitles": null,
+            "pages": null,
+            "years": null,
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": null,
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/educon/TsolakidisTSC17",
+            "mdate": "2017-06-14",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Evangelia Triperina"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikos Christidis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Measuring academic research impact based on open data: A case of engineering faculties."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "EDUCON"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "1611-1618"
+              }
+            ],
+            "years": [
+              {
+                "value": "2017"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/educon/educon2017.html#TsolakidisTSC17"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/EDUCON.2017.7943064"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/educon/2017"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/TsolakidisTSC16",
+            "mdate": "2017-02-15",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Evangelia Triperina"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikos Christidis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Research Publication Recommendation System based on a Hybrid Approach."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "78"
+              }
+            ],
+            "years": [
+              {
+                "value": "2016"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2016.html#TsolakidisTSC16"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "http://dl.acm.org/citation.cfm?id=3003805"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2016"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/TriperinaST13",
+            "mdate": "2013-08-30",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Evangelia Triperina"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "AcademIS: an ontology for representing academic activity and collaborations within HEIs."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "264-271"
+              }
+            ],
+            "years": [
+              {
+                "value": "2013"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2013.html#TriperinaST13"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "http://doi.acm.org/10.1145/2491845.2491884"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2013"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/TsolakidisSPTM12",
+            "mdate": "2017-05-19",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Effie Papageorgiou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Olivier Terraz"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Georgios Miaoulis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Co-authorship Networks in Academic Research Communities: The Role of Network Strength."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "150-155"
+              }
+            ],
+            "years": [
+              {
+                "value": "2012"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2012.html#TsolakidisSPTM12"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PCi.2012.47"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PCi.2012.47"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2012"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/AnastasiosSXTM11",
+            "mdate": "2017-05-19",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Xydas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Olivier Terraz"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Georgios Miaoulis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Academic Research Policy-Making and Evaluation Using Graph Visualisation."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "28-32"
+              }
+            ],
+            "years": [
+              {
+                "value": "2011"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2011.html#AnastasiosSXTM11"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PCI.2011.38"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PCI.2011.38"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2011"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/ChalarisTSC11",
+            "mdate": "2017-05-19",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Manolis Chalaris"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Developing an Information System for Quality Assurance in Higher Education Using the Balanced Scorecard Technique - The Case Study of TEI-A."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "373-377"
+              }
+            ],
+            "years": [
+              {
+                "value": "2011"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2011.html#ChalarisTSC11"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PCI.2011.43"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PCI.2011.43"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2011"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/ksem/TsolakidisCM09",
+            "mdate": "2017-05-25",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Anastasios Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "George Miaoulis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Interactive Visualization in Knowledge Discovery for Academic Evaluation and Accreditation."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "KSEM"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "168-179"
+              }
+            ],
+            "years": [
+              {
+                "value": "2009"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/ksem/ksem2009.html#TsolakidisCM09"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/978-3-642-10488-6_19"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/ksem/2009"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      }
+    ]
+  }
+}

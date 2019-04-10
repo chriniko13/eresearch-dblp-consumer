@@ -1,0 +1,15 @@
+---------------------------------
+------  EXAMPLE REQUEST  --------
+---------------------------------
+
+http://dblp.uni-trier.de/search/author?xauthor=Christos%20Skour
+
+
+---------------------------------
+------  EXAMPLE RESPONSE  -------
+---------------------------------
+
+<authors>
+    <author urlpt="s/Skourlas:Christos">Christos Skourlas</author>
+    <author urlpt="s/Skouroumounis:Christos">Christos Skouroumounis</author>
+</authors>
