@@ -31,10 +31,10 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
 
 
 ### Create Docker Image
-* Execute: `mvn clean install -DskipITs`
+* Execute: `mvn clean install -DskipITs=true`
 * Execute: `docker build -t chriniko/eresearch-dblp-consumer:1.0 .` in order to build docker image.
 
-* Fast: `mvn clean install -DskipITs && docker build -t chriniko/eresearch-dblp-consumer:1.0 .`
+* Fast: `mvn clean install -DskipITs=true && docker build -t chriniko/eresearch-dblp-consumer:1.0 .`
 
 
 ### How to run service (not dockerized)
@@ -42,7 +42,7 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
 
 * Two options:
     * Execute: 
-        * `mvn clean install -DskipITs`
+        * `mvn clean install -DskipITs=true`
         * `java -jar -Dspring.profiles.active=dev target/eresearch-dblp-consumer-1.0-boot.jar`
                 
     * Execute:
@@ -54,7 +54,7 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
 ### How to run service (dockerized)
 * Uncomment the section in `docker-compose.yml` file for service: `eresearch-dblp-consumer:`
 
-* Execute: `mvn clean install -DskipITs`
+* Execute: `mvn clean install -DskipITs=true`
 
 * Execute: `docker-compose build`
 
@@ -82,15 +82,15 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
 
 {
   "operation-result": true,
-  "process-finished-date": "2017-06-21T18:54:33.574Z",
+  "process-finished-date": "2019-04-11T07:42:17.026Z",
   "requested-dblp-consumer-dto": {
-    "firstname": "Anastasios",
+    "firstname": "Christos",
     "initials": "",
-    "surname": "Tsolakidis"
+    "surname": "Skourlas"
   },
   "fetched-results-size": 1,
   "fetched-results": {
-    "authorName=Anastasios Tsolakidis#urlpt=t/Tsolakidis:Anastasios": [
+    "authorName=Christos Skourlas#urlpt=s/Skourlas:Christos": [
       {
         "mdate": null,
         "articles": null,
@@ -102,8 +102,8 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
         "mastersthesis": null,
         "www": [
           {
-            "key": "homepages/04/7556",
-            "mdate": "2009-11-24",
+            "key": "homepages/65/4173",
+            "mdate": "2009-06-10",
             "publtype": null,
             "cdate": null,
             "authors": [
@@ -111,7 +111,7 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
                 "aux": null,
                 "bibtex": null,
                 "orcid": null,
-                "value": "Anastasios Tsolakidis"
+                "value": "Christos Skourlas"
               }
             ],
             "editors": null,
@@ -151,8 +151,8 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
         "articles": null,
         "inproceedings": [
           {
-            "key": "conf/educon/TsolakidisTSC17",
-            "mdate": "2017-06-14",
+            "key": "conf/pci/Anagnostopoulos18",
+            "mdate": "2019-01-09",
             "publtype": null,
             "cdate": null,
             "authors": [
@@ -160,48 +160,48 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
                 "aux": null,
                 "bibtex": null,
                 "orcid": null,
-                "value": "Anastasios Tsolakidis"
+                "value": "Theodoros Anagnostopoulos"
               },
               {
                 "aux": null,
                 "bibtex": null,
                 "orcid": null,
-                "value": "Evangelia Triperina"
+                "value": "Klimis S. Ntalianis"
               },
               {
                 "aux": null,
                 "bibtex": null,
                 "orcid": null,
-                "value": "Cleo Sgouropoulou"
+                "value": "Christos Skourlas"
               },
               {
                 "aux": null,
                 "bibtex": null,
                 "orcid": null,
-                "value": "Nikos Christidis"
+                "value": "S. R. Jino Ramson"
               }
             ],
             "editors": null,
             "titles": [
               {
                 "bibtex": null,
-                "value": "Measuring academic research impact based on open data: A case of engineering faculties."
+                "value": "IoT-enabled fall verification of elderly and impaired people in smart cities."
               }
             ],
             "booktitles": [
               {
-                "value": "EDUCON"
+                "value": "PCI"
               }
             ],
             "pages": [
               {
                 "type": null,
-                "value": "1611-1618"
+                "value": "88-92"
               }
             ],
             "years": [
               {
-                "value": "2017"
+                "value": "2018"
               }
             ],
             "addresses": null,
@@ -212,13 +212,13 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
             "urls": [
               {
                 "aux": null,
-                "value": "db/conf/educon/educon2017.html#TsolakidisTSC17"
+                "value": "db/conf/pci/pci2018.html#Anagnostopoulos18"
               }
             ],
             "ees": [
               {
                 "aux": null,
-                "value": "https://doi.org/10.1109/EDUCON.2017.7943064"
+                "value": "https://doi.org/10.1145/3291533.3291553"
               }
             ],
             "cdroms": null,
@@ -227,7 +227,7 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
             "notes": null,
             "crossrefs": [
               {
-                "value": "conf/educon/2017"
+                "value": "conf/pci/2018"
               }
             ],
             "isbns": null,

@@ -91,6 +91,16 @@ public class SpecificationIT {
     @Test
     public void dblp_consumption_works_as_expected_async_queue() {
         Assert.assertEquals(1, 1);
+
+
+        // given
+
+
+        // when
+
+
+        // then
+
     }
 
     private void mockDblp() {
