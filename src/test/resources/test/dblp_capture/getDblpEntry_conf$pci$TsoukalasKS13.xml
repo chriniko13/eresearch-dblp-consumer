@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/TsoukalasKS13" mdate="2018-11-06">
+        <author>Vassilis Tsoukalas</author>
+        <author>Vassilis G. Kaburlasos</author>
+        <author>Christos Skourlas</author>
+        <title>A granular, parametric KNN classifier.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>319-326</pages>
+        <year>2013</year>
+        <url>db/conf/pci/pci2013.html#TsoukalasKS13</url>
+        <ee>https://doi.org/10.1145/2491845.2491892</ee>
+        <crossref>conf/pci/2013</crossref>
+    </inproceedings>
+</dblp>

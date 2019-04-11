@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/wscg/MiaoulisPMS00" mdate="2013-07-24">
+        <author>George Miaoulis</author>
+        <author>Dimitri Plemenos</author>
+        <author>Dimitri Magos</author>
+        <author>Christos Skourlas</author>
+        <title>The MultiCAD Project: Towards an Intelligent Multimedia Information System for CAD.</title>
+        <booktitle>WSCG</booktitle>
+        <year>2000</year>
+        <url>db/conf/wscg/wscg2000.html#MiaoulisPMS00</url>
+        <ee>http://wscg.zcu.cz/wscg2000/Papers_2000/W29.ps.gz</ee>
+        <crossref>conf/wscg/2000</crossref>
+    </inproceedings>
+</dblp>

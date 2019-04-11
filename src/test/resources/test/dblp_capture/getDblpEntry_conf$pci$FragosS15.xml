@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/FragosS15" mdate="2018-11-21">
+        <author>Kostas Fragos</author>
+        <author>Christos Skourlas</author>
+        <title>Ranking tokens with class label frequencies for medical article classification.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>359-360</pages>
+        <year>2015</year>
+        <url>db/conf/pci/pci2015.html#FragosS15</url>
+        <ee>https://doi.org/10.1145/2801948.2802022</ee>
+        <crossref>conf/pci/2015</crossref>
+    </inproceedings>
+</dblp>

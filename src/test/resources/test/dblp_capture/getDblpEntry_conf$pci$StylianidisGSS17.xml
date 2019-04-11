@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/StylianidisGSS17" mdate="2018-11-06">
+        <author>Matthaios Stylianidis</author>
+        <author>Eleni Galiotou</author>
+        <author>Cleo Sgouropoulou</author>
+        <author>Christos Skourlas</author>
+        <title>Opinion mining using an LVQ neural network.</title>
+        <booktitle>PCI</booktitle>
+        <pages>61:1-61:5</pages>
+        <year>2017</year>
+        <url>db/conf/pci/pci2017.html#StylianidisGSS17</url>
+        <ee>https://doi.org/10.1145/3139367.3139416</ee>
+        <crossref>conf/pci/2017</crossref>
+    </inproceedings>
+</dblp>

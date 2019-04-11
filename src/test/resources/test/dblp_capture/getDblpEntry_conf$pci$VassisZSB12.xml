@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/VassisZSB12" mdate="2017-05-19">
+        <author>Dimitris Vassis</author>
+        <author>B. Zafeiris</author>
+        <author>Christos Skourlas</author>
+        <author>Petros Belsis</author>
+        <title>An Ad Hoc-Based ERP for Medical Treatment Provision in Crisis Conditions.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>439-444</pages>
+        <year>2012</year>
+        <url>db/conf/pci/pci2012.html#VassisZSB12</url>
+        <ee>https://doi.org/10.1109/PCi.2012.36</ee>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/PCi.2012.36</ee>
+        <crossref>conf/pci/2012</crossref>
+    </inproceedings>
+</dblp>

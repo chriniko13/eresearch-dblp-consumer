@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/FragosS14" mdate="2018-11-06">
+        <author>Kostas Fragos</author>
+        <author>Christos Skourlas</author>
+        <title>Toward Improving Classification of Real World Biomedical Articles.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>48:1-48:3</pages>
+        <year>2014</year>
+        <url>db/conf/pci/pci2014.html#FragosS14</url>
+        <ee>https://doi.org/10.1145/2645791.2645848</ee>
+        <crossref>conf/pci/2014</crossref>
+    </inproceedings>
+</dblp>

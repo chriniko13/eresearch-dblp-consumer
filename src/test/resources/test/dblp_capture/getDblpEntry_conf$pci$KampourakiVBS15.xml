@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/KampourakiVBS15" mdate="2018-11-21">
+        <author>A. Kampouraki</author>
+        <author>Dimitris Vassis</author>
+        <author>Petros Belsis</author>
+        <author>Christos Skourlas</author>
+        <title>Helping visually impaired people use smart phones in education: content retrieval with fingerprint
+            identification.
+        </title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>342-347</pages>
+        <year>2015</year>
+        <url>db/conf/pci/pci2015.html#KampourakiVBS15</url>
+        <ee>https://doi.org/10.1145/2801948.2801975</ee>
+        <crossref>conf/pci/2015</crossref>
+    </inproceedings>
+</dblp>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/nlucs/FragosS06" mdate="2006-07-17">
+        <author>Kostas Fragos</author>
+        <author>Christos Skourlas</author>
+        <title>A Divergence from Randomness Framework of WordNet Synsets' Distribution for Word Sense Disambiguation.
+        </title>
+        <booktitle>NLUCS</booktitle>
+        <pages>71-80</pages>
+        <year>2006</year>
+        <url>db/conf/nlucs/nlucs2006.html#FragosS06</url>
+        <crossref>conf/nlucs/2006</crossref>
+    </inproceedings>
+</dblp>

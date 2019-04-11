@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/petra/SkourlasBSTVM09" mdate="2018-11-06">
+        <author>Christos Skourlas</author>
+        <author>Petros Belsis</author>
+        <author>F. Sarinopoulou</author>
+        <author>A. Tsolakidis</author>
+        <author>Dimitris Vassis</author>
+        <author>Catherine Marinagi</author>
+        <title>A wireless distributed framework for supporting assistive learning environments.</title>
+        <booktitle>PETRA</booktitle>
+        <year>2009</year>
+        <url>db/conf/petra/petra2009.html#SkourlasBSTVM09</url>
+        <ee>https://doi.org/10.1145/1579114.1579167</ee>
+        <crossref>conf/petra/2009</crossref>
+    </inproceedings>
+</dblp>

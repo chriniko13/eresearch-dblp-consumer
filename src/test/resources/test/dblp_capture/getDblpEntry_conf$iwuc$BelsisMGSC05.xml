@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/iwuc/BelsisMGSC05" mdate="2005-07-05">
+        <author>Petros Belsis</author>
+        <author>Apostolos Malatras</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <author>Ioannis Chalaris</author>
+        <title>Pervasive Secure Electronic Healthcare Records Management.</title>
+        <booktitle>IWUC</booktitle>
+        <pages>101-109</pages>
+        <year>2005</year>
+        <url>db/conf/iwuc/iwuc2005.html#BelsisMGSC05</url>
+        <crossref>conf/iwuc/2005</crossref>
+    </inproceedings>
+</dblp>

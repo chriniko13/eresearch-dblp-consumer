@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/iceis/MarinagiAKS06" mdate="2006-09-04">
+        <author>Catherine Marinagi</author>
+        <author>Theodoros Alevizos</author>
+        <author>Vassilis G. Kaburlasos</author>
+        <author>Christos Skourlas</author>
+        <title>Fuzzy Interval Number (FIN) Techniques for Cross Language Information Retrieval.</title>
+        <booktitle>ICEIS (2)</booktitle>
+        <pages>249-256</pages>
+        <year>2006</year>
+        <url>db/conf/iceis/iceis2006-2.html#MarinagiAKS06</url>
+        <crossref>conf/iceis/2006</crossref>
+    </inproceedings>
+</dblp>

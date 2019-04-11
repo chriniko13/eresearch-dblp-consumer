@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/VassisBS12" mdate="2017-05-19">
+        <author>Dimitris Vassis</author>
+        <author>Petros Belsis</author>
+        <author>Christos Skourlas</author>
+        <title>Secure Management of Medical Data in Wireless Environments.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>427-432</pages>
+        <year>2012</year>
+        <url>db/conf/pci/pci2012.html#VassisBS12</url>
+        <ee>https://doi.org/10.1109/PCi.2012.37</ee>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/PCi.2012.37</ee>
+        <crossref>conf/pci/2012</crossref>
+    </inproceedings>
+</dblp>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <incollection key="series/sci/BelsisKMPS08" mdate="2017-05-16">
+        <author>Petros Belsis</author>
+        <author>Charalampos Konstantopoulos</author>
+        <author>Basilis Mamalis</author>
+        <author>Grammati E. Pantziou</author>
+        <author>Christos Skourlas</author>
+        <title>Interactive Cluster-Based Personalized Retrieval on Large Document Collections.</title>
+        <booktitle>New Directions in Intelligent Interactive Multimedia</booktitle>
+        <pages>211-220</pages>
+        <year>2008</year>
+        <url>db/series/sci/sci142.html#BelsisKMPS08</url>
+        <ee>https://doi.org/10.1007/978-3-540-68127-4_22</ee>
+        <crossref>series/sci/2008-142</crossref>
+    </incollection>
+</dblp>

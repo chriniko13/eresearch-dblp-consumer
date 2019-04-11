@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/icps/MalatrasPBGSC05" mdate="2017-05-24">
+        <author>Apostolos Malatras</author>
+        <author>George Pavlou</author>
+        <author>Petros Belsis</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <author>Ioannis Chalaris</author>
+        <title>Secure and distributed knowledge management in pervasive environments.</title>
+        <booktitle>ICPS</booktitle>
+        <pages>79-87</pages>
+        <year>2005</year>
+        <url>db/conf/icps/icps2005.html#MalatrasPBGSC05</url>
+        <ee>https://doi.org/10.1109/PERSER.2005.1506393</ee>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/PERSER.2005.1506393</ee>
+        <crossref>conf/icps/2005</crossref>
+    </inproceedings>
+</dblp>

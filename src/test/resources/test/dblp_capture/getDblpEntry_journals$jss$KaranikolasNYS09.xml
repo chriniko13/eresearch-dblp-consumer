@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <article key="journals/jss/KaranikolasNYS09" mdate="2017-05-28">
+        <author>Nikitas N. Karanikolas</author>
+        <author>Maria Nitsiou</author>
+        <author>Emmanuel J. Yannakoudakis</author>
+        <author>Christos Skourlas</author>
+        <title>CUDL language semantics: Updating FDB data.</title>
+        <pages>947-962</pages>
+        <year>2009</year>
+        <journal>Journal of Systems and Software</journal>
+        <volume>82</volume>
+        <number>6</number>
+        <url>db/journals/jss/jss82.html#KaranikolasNYS09</url>
+        <ee>https://doi.org/10.1016/j.jss.2008.12.031</ee>
+    </article>
+</dblp>

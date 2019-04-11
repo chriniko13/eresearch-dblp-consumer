@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/nlucs/FragosMS05" mdate="2005-07-07">
+        <author>Kostas Fragos</author>
+        <author>Yannis Maistros</author>
+        <author>Christos Skourlas</author>
+        <title>A Weighted Maximum Entropy Language Model for Text Classification.</title>
+        <booktitle>NLUCS</booktitle>
+        <pages>55-67</pages>
+        <year>2005</year>
+        <url>db/conf/nlucs/nlucs2005.html#FragosMS05</url>
+        <crossref>conf/nlucs/2005</crossref>
+    </inproceedings>
+</dblp>

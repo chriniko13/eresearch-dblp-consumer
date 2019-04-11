@@ -1,0 +1,5629 @@
+{
+  "operation-result": true,
+  "process-finished-date": "2019-04-11T07:42:17.026Z",
+  "requested-dblp-consumer-dto": {
+    "firstname": "Christos",
+    "initials": "",
+    "surname": "Skourlas"
+  },
+  "fetched-results-size": 1,
+  "fetched-results": {
+    "authorName=Christos Skourlas#urlpt=s/Skourlas:Christos": [
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": [
+          {
+            "key": "homepages/65/4173",
+            "mdate": "2009-06-10",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Home Page"
+              }
+            ],
+            "booktitles": null,
+            "pages": null,
+            "years": null,
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": null,
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/Anagnostopoulos18",
+            "mdate": "2019-01-09",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Theodoros Anagnostopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Klimis S. Ntalianis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "S. R. Jino Ramson"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "IoT-enabled fall verification of elderly and impaired people in smart cities."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "88-92"
+              }
+            ],
+            "years": [
+              {
+                "value": "2018"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2018.html#Anagnostopoulos18"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/3291533.3291553"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2018"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/GalliakisSGV18",
+            "mdate": "2019-01-09",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Michael Galliakis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Eleni Galiotou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Voyiatzis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A low-cost smart home for the assistance of elderly persons and patients."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "93-98"
+              }
+            ],
+            "years": [
+              {
+                "value": "2018"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2018.html#GalliakisSGV18"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/3291533.3291578"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2018"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/MarinagiSG18",
+            "mdate": "2019-01-09",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Eleni Galiotou"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Advanced information technology solutions for implementing information sharing across supply chains.        "
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "99-102"
+              }
+            ],
+            "years": [
+              {
+                "value": "2018"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2018.html#MarinagiSG18"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/3291533.3291575"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2018"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/Anagnostopoulos17",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Theodoros Anagnostopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Klimis S. Ntalianis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Inna Sosunova"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petr Fedchenkov"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Arkady B. Zaslavsky"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "ToA estimation system for efficient cycling in Smart Cities."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "60:1-60:4"
+              }
+            ],
+            "years": [
+              {
+                "value": "2017"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2017.html#Anagnostopoulos17"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/3139367.3139412"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2017"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/StylianidisGSS17",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Matthaios Stylianidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Eleni Galiotou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Cleo Sgouropoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Opinion mining using an LVQ neural network."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "61:1-61:5"
+              }
+            ],
+            "years": [
+              {
+                "value": "2017"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2017.html#StylianidisGSS17"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/3139367.3139416"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2017"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/FragosS16",
+            "mdate": "2017-02-15",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Smoothing Class Frequencies for KNN Medical Article Classification."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PCI"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "79"
+              }
+            ],
+            "years": [
+              {
+                "value": "2016"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2016.html#FragosS16"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "http://dl.acm.org/citation.cfm?id=3003806"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2016"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/KampourakiVBS15",
+            "mdate": "2018-11-21",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "A. Kampouraki"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Helping visually impaired people use smart phones in education: content retrieval with fingerprint            identification.        "
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "342-347"
+              }
+            ],
+            "years": [
+              {
+                "value": "2015"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2015.html#KampourakiVBS15"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2801948.2801975"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2015"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/FragosS15",
+            "mdate": "2018-11-21",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Ranking tokens with class label frequencies for medical article classification."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "359-360"
+              }
+            ],
+            "years": [
+              {
+                "value": "2015"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2015.html#FragosS15"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2801948.2802022"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2015"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/SkourlasDL15",
+            "mdate": "2018-11-21",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": "0000-0002-5441-0086",
+                "value": "Dimitrios A. Dervos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Martti Laiho"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Database SQL transactions and learning by verifying in practice: a case study."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "361-362"
+              }
+            ],
+            "years": [
+              {
+                "value": "2015"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2015.html#SkourlasDL15"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2801948.2802015"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2015"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jsit/VosMTEGS14",
+            "mdate": "2018-11-02",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": "0000-0001-7794-0904",
+                "value": "Angeliki Vos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": "0000-0003-2005-7939",
+                "value": "Panagiotis Trivellas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Niclas Eberhagen"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Georgios Giannakopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Electronic service quality in online shopping and risk reduction strategies."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "170-186"
+              }
+            ],
+            "years": [
+              {
+                "value": "2014"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "J. Systems and IT"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "16"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "3"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jsit/jsit16.html#VosMTEGS14"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1108/JSIT-01-2014-0008"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jsit/MetalidouMTEGS14",
+            "mdate": "2017-06-06",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Efthymia Metalidou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": "0000-0003-2005-7939",
+                "value": "Panagiotis Trivellas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Niclas Eberhagen"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Georgios Giannakopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Human factor and information security in higher education."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "210-221"
+              }
+            ],
+            "years": [
+              {
+                "value": "2014"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "J. Systems and IT"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "16"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "3"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jsit/jsit16.html#MetalidouMTEGS14"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1108/JSIT-01-2014-0007"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jsit/AnagnostopoulosS14",
+            "mdate": "2017-05-18",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Theodoros Anagnostopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Ensemble majority voting classifier for speech emotion recognition and prediction."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "222-232"
+              }
+            ],
+            "years": [
+              {
+                "value": "2014"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "J. Systems and IT"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "16"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "3"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jsit/jsit16.html#AnagnostopoulosS14"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1108/JSIT-01-2014-0009"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/FragosS14",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Toward Improving Classification of Real World Biomedical Articles."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "48:1-48:3"
+              }
+            ],
+            "years": [
+              {
+                "value": "2014"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2014.html#FragosS14"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2645791.2645848"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2014"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/ijapuc/BelsisSG13",
+            "mdate": "2017-05-28",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A Wireless System for Secure Electronic Healthcare Records Management."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "16-32"
+              }
+            ],
+            "years": [
+              {
+                "value": "2013"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "IJAPUC"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "5"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "4"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/ijapuc/ijapuc5.html#BelsisSG13"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.4018/ijapuc.2013100102"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/ijmbl/MarinagiS13",
+            "mdate": "2017-05-28",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Blended Learning in Personalized Assistive Learning Environments."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "39-59"
+              }
+            ],
+            "years": [
+              {
+                "value": "2013"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "IJMBL"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "5"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "2"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/ijmbl/ijmbl5.html#MarinagiS13"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.4018/jmbl.2013040103"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/VassisBSMT13",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis Tsoukalas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Secure mobile assessment of deaf and hard-of-hearing and dyslexic students in higher education."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "311-318"
+              }
+            ],
+            "years": [
+              {
+                "value": "2013"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2013.html#VassisBSMT13"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2491845.2491891"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2013"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/TsoukalasKS13",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis Tsoukalas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis G. Kaburlasos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A granular, parametric KNN classifier."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "319-326"
+              }
+            ],
+            "years": [
+              {
+                "value": "2013"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2013.html#TsoukalasKS13"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2491845.2491892"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2013"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/petra/ZafeirisBS13",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": "0000-0003-0751-4509",
+                "value": "Vassilis Zafeiris"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "NFC-triggered IMS flow mobility across different devices."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PETRA"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "14:1-14:5"
+              }
+            ],
+            "years": [
+              {
+                "value": "2013"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/petra/petra2013.html#ZafeirisBS13"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/2504335.2504349"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/petra/2013"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/isca/BelsisKMPS12",
+            "mdate": "2012-11-07",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Charalampos Konstantopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Basilis Mamalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Grammati E. Pantziou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "User-Directed, Cluster-Based Retrieval for Large Document Collections in Highly Parallel Environments.        "
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "47-60"
+              }
+            ],
+            "years": [
+              {
+                "value": "2012"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "I. J. Comput. Appl."
+              }
+            ],
+            "volumes": [
+              {
+                "value": "19"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "1"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/isca/isca19.html#BelsisKMPS12"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/BelsisGMSV12",
+            "mdate": "2017-05-19",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Secure Wireless Infrastructures and Mobile Learning for Deaf and Hard-of-Hearing Students."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "369-374"
+              }
+            ],
+            "years": [
+              {
+                "value": "2012"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2012.html#BelsisGMSV12"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PCi.2012.66"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PCi.2012.66"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2012"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/VassisBS12",
+            "mdate": "2017-05-19",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Secure Management of Medical Data in Wireless Environments."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "427-432"
+              }
+            ],
+            "years": [
+              {
+                "value": "2012"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2012.html#VassisBS12"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PCi.2012.37"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PCi.2012.37"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2012"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pci/VassisZSB12",
+            "mdate": "2017-05-19",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "B. Zafeiris"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "An Ad Hoc-Based ERP for Medical Treatment Provision in Crisis Conditions."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "Panhellenic Conference on Informatics"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "439-444"
+              }
+            ],
+            "years": [
+              {
+                "value": "2012"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pci/pci2012.html#VassisZSB12"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PCi.2012.36"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PCi.2012.36"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pci/2012"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jitr/BelsisSG11",
+            "mdate": "2017-05-18",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Secure Electronic Healthcare Records Management in Wireless Environments."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "1-17"
+              }
+            ],
+            "years": [
+              {
+                "value": "2011"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "JITR"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "4"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "4"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jitr/jitr4.html#BelsisSG11"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.4018/jitr.2011100101"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/scn/BelsisVS11",
+            "mdate": "2017-05-28",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "assistive medical environments."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "1231-1242"
+              }
+            ],
+            "years": [
+              {
+                "value": "2011"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "Security and Communication Networks"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "4"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "11"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/scn/scn4.html#BelsisVS11"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1002/sec.223"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jis/KaranikolasS10",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikitas N. Karanikolas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A parametric methodology for text classification."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "421-442"
+              }
+            ],
+            "years": [
+              {
+                "value": "2010"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "J. Information Science"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "36"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "4"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jis/jis36.html#KaranikolasS10"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1177/0165551510368620"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/puc/VassisBSP10",
+            "mdate": "2017-05-28",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Grammati E. Pantziou"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Providing advanced remote medical treatment services through pervasive environments."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "563-573"
+              }
+            ],
+            "years": [
+              {
+                "value": "2010"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "Personal and Ubiquitous Computing"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "14"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "6"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/puc/puc14.html#VassisBSP10"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/s00779-009-0273-0"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jcs/BelsisFGS09",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Applying effective feature selection techniques with hierarchical mixtures of experts for spam            classification.        "
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "239-268"
+              }
+            ],
+            "years": [
+              {
+                "value": "2009"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "Journal of Computer Security"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "17"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "3"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jcs/jcs17.html#BelsisFGS09"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.3233/JCS-2009-0377"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jss/KaranikolasNYS09",
+            "mdate": "2017-05-28",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikitas N. Karanikolas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Maria Nitsiou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Emmanuel J. Yannakoudakis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "CUDL language semantics: Updating FDB data."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "947-962"
+              }
+            ],
+            "years": [
+              {
+                "value": "2009"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "Journal of Systems and Software"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "82"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "6"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jss/jss82.html#KaranikolasNYS09"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1016/j.jss.2008.12.031"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/petra/SkourlasBSTVM09",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "F. Sarinopoulou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "A. Tsolakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A wireless distributed framework for supporting assistive learning environments."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PETRA"
+              }
+            ],
+            "pages": null,
+            "years": [
+              {
+                "value": "2009"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/petra/petra2009.html#SkourlasBSTVM09"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/1579114.1579167"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/petra/2009"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/petra/VassisBSG09",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "End to end secure communication in ad-hoc assistive medical environments using secure paths."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PETRA"
+              }
+            ],
+            "pages": null,
+            "years": [
+              {
+                "value": "2009"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/petra/petra2009.html#VassisBSG09"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/1579114.1579184"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/petra/2009"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/jcs/BelsisFGS08",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Applying effective feature selection techniques with hierarchical mixtures of experts for spam            classification.        "
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "761-790"
+              }
+            ],
+            "years": [
+              {
+                "value": "2008"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "Journal of Computer Security"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "16"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "6"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/jcs/jcs16.html#BelsisFGS08"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.3233/JCS-2008-0319"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iceis/KaranikolasSNY08",
+            "mdate": "2008-08-13",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikitas Karanikolas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Maria Nitsiou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Emmanuel J. Yannakoudakis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Conceptual Universal Database Language (CUDL) and Enterprise Medical Information Systems."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICEIS (1)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "362-367"
+              }
+            ],
+            "years": [
+              {
+                "value": "2008"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iceis/iceis2008-1.html#KaranikolasSNY08"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iceis/2008-1"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/mie/BelsisVSP08",
+            "mdate": "2017-05-17",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Grammati E. Pantziou"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Secure dissemination of electronic healthcare records in distributed wireless environments."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "MIE"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "661-666"
+              }
+            ],
+            "years": [
+              {
+                "value": "2008"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/mie/mie2008.html#BelsisVSP08"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.3233/978-1-58603-864-9-661"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/mie/2008"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/petra/VassisBSP08",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitris Vassis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Grammati E. Pantziou"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A pervasive architectural framework for providing remote medical treatment."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PETRA"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "23"
+              }
+            ],
+            "years": [
+              {
+                "value": "2008"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/petra/petra2008.html#VassisBSP08"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/1389586.1389614"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/petra/2008"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": [
+          {
+            "key": "series/sci/BelsisKMPS08",
+            "mdate": "2017-05-16",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Charalampos Konstantopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Basilis Mamalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Grammati E. Pantziou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Interactive Cluster-Based Personalized Retrieval on Large Document Collections."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "New Directions in Intelligent Interactive Multimedia"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "211-220"
+              }
+            ],
+            "years": [
+              {
+                "value": "2008"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/series/sci/sci142.html#BelsisKMPS08"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/978-3-540-68127-4_22"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "series/sci/2008-142"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/adbis/KaranikolasNYS07",
+            "mdate": "2008-05-29",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikitas Karanikolas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Maria Nitsiou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Emmanuel J. Yannakoudakis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "CUDL Language Semantics, Liven Up the FDB Data Model."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ADBIS Research Communications"
+              }
+            ],
+            "pages": null,
+            "years": [
+              {
+                "value": "2007"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/adbis/adbis2007l.html#KaranikolasNYS07"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "http://ceur-ws.org/Vol-325/paper01.pdf"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/adbis/2007l"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/asian/BelsisGST07",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis Tsoukalas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Managing Uncertainty in Access Control Decisions in Distributed Autonomous Collaborative Environments.        "
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ASIAN"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "261-267"
+              }
+            ],
+            "years": [
+              {
+                "value": "2007"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/asian/asian2007.html#BelsisGST07"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/978-3-540-76929-3_25"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/asian/2007"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iceis/AlevizosKPSB07",
+            "mdate": "2008-01-14",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Theodoros Alevizos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis G. Kaburlasos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stelios E. Papadakis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Fuzzy Interval Number (FIN) Techniques for Multilingual and Cross Language Information Retrieval."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICEIS (2)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "348-355"
+              }
+            ],
+            "years": [
+              {
+                "value": "2007"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iceis/iceis2007-2.html#AlevizosKPSB07"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iceis/2007-2"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/trustbus/BelsisGST07",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis Tsoukalas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Design and Implementation of Distributed Access Control Infrastructures for Federations of Autonomous            Domains.        "
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "TrustBus"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "125-134"
+              }
+            ],
+            "years": [
+              {
+                "value": "2007"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/trustbus/trustbus2007.html#BelsisGST07"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/978-3-540-74409-2_15"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/trustbus/2007"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/icann/VassilasS06",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikolaos Vassilas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Content-Based Coin Retrieval Using Invariant Features and Self-organizing Maps."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICANN (2)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "113-122"
+              }
+            ],
+            "years": [
+              {
+                "value": "2006"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/icann/icann2006-2.html#VassilasS06"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/11840930_12"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/icann/2006-2"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iceis/MarinagiAKS06",
+            "mdate": "2006-09-04",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Catherine Marinagi"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Theodoros Alevizos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Vassilis G. Kaburlasos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Fuzzy Interval Number (FIN) Techniques for Cross Language Information Retrieval."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICEIS (2)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "249-256"
+              }
+            ],
+            "years": [
+              {
+                "value": "2006"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iceis/iceis2006-2.html#MarinagiAKS06"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iceis/2006"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/kes/PaliourasANAS06",
+            "mdate": "2017-05-21",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Georgios Paliouras"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Alexandros Mouzakidis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Ntoutsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Angelos Alexopoulos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "PNS: Personalized Multi-source News Delivery."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "KES (2)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "1152-1161"
+              }
+            ],
+            "years": [
+              {
+                "value": "2006"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/kes/kes2006-2.html#PaliourasANAS06"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/11893004_146"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/kes/2006-2"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/nlucs/FragosS06",
+            "mdate": "2006-07-17",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A Divergence from Randomness Framework of WordNet Synsets' Distribution for Word Sense Disambiguation.        "
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "NLUCS"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "71-80"
+              }
+            ],
+            "years": [
+              {
+                "value": "2006"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/nlucs/nlucs2006.html#FragosS06"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/nlucs/2006"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/nlucs/FragosS06a",
+            "mdate": "2006-07-17",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "An N-gram Based Distributional Test for Authorship Identification."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "NLUCS"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "139-148"
+              }
+            ],
+            "years": [
+              {
+                "value": "2006"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/nlucs/nlucs2006.html#FragosS06a"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/nlucs/2006"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/sac/BelsisFGS06",
+            "mdate": "2018-11-06",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "SF-HME system: a hierarchical mixtures-of-experts classification system for spam filtering."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "SAC"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "354-360"
+              }
+            ],
+            "years": [
+              {
+                "value": "2006"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/sac/sac2006.html#BelsisFGS06"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1145/1141277.1141360"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/sac/2006"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": [
+          {
+            "key": "journals/ijpcc/MalatrasPBGSC05",
+            "mdate": "2017-05-17",
+            "publtype": null,
+            "reviewid": null,
+            "rating": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Apostolos Malatras"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "George Pavlou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Deploying pervasive secure knowledge management infrastructures."
+              }
+            ],
+            "booktitles": null,
+            "pages": [
+              {
+                "type": null,
+                "value": "265-276"
+              }
+            ],
+            "years": [
+              {
+                "value": "2005"
+              }
+            ],
+            "addresses": null,
+            "journals": [
+              {
+                "value": "Int. J. Pervasive Computing and Communications"
+              }
+            ],
+            "volumes": [
+              {
+                "value": "1"
+              }
+            ],
+            "numbers": [
+              {
+                "value": "4"
+              }
+            ],
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/journals/ijpcc/ijpcc1.html#MalatrasPBGSC05"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1108/17427370580000130"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": null,
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "inproceedings": null,
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/icps/MalatrasPBGSC05",
+            "mdate": "2017-05-24",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Apostolos Malatras"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "George Pavlou"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Secure and distributed knowledge management in pervasive environments."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICPS"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "79-87"
+              }
+            ],
+            "years": [
+              {
+                "value": "2005"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/icps/icps2005.html#MalatrasPBGSC05"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1109/PERSER.2005.1506393"
+              },
+              {
+                "aux": null,
+                "value": "http://doi.ieeecomputersociety.org/10.1109/PERSER.2005.1506393"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/icps/2005"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iwuc/BelsisMGSC05",
+            "mdate": "2005-07-05",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Apostolos Malatras"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Pervasive Secure Electronic Healthcare Records Management."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "IWUC"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "101-109"
+              }
+            ],
+            "years": [
+              {
+                "value": "2005"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iwuc/iwuc2005.html#BelsisMGSC05"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iwuc/2005"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/nlucs/FragosMS05",
+            "mdate": "2005-07-07",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Yannis Maistros"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "A Weighted Maximum Entropy Language Model for Text Classification."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "NLUCS"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "55-67"
+              }
+            ],
+            "years": [
+              {
+                "value": "2005"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/nlucs/nlucs2005.html#FragosMS05"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/nlucs/2005"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/trustbus/BelsisGMSC05",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Apostolos Malatras"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Sec-Shield: Security Preserved Distributed Knowledge Management Between Autonomous Domains."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "TrustBus"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "10-19"
+              }
+            ],
+            "years": [
+              {
+                "value": "2005"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/trustbus/trustbus2005.html#BelsisGMSC05"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/11537878_2"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/trustbus/2005"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iceis/BelsisGSD04",
+            "mdate": "2017-02-02",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Drakopoulos"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Implementing Knowledge Management Techniques for Security Purposes."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICEIS (2)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "535-540"
+              }
+            ],
+            "years": [
+              {
+                "value": "2004"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iceis/iceis2004-2.html#BelsisGSD04"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iceis/2004"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iceis/HadjidiakosSA04",
+            "mdate": "2017-02-02",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Paraskevas Hadjidiakos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Theodoros Alevizos"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Information System for Supporting the Inclusion of Job Seekers to the Labour Market."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICEIS (1)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "617-624"
+              }
+            ],
+            "years": [
+              {
+                "value": "2004"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iceis/iceis2004-1.html#HadjidiakosSA04"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iceis/2004"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/nlucs/FragosMS04",
+            "mdate": "2004-06-28",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Kostas Fragos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Yannis Maistros"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Discovering Collocations in Modern Greek Language."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "NLUCS"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "151-158"
+              }
+            ],
+            "years": [
+              {
+                "value": "2004"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/nlucs/nlucs2004.html#FragosMS04"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/nlucs/2004"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/pakm/BelsisGMSC04",
+            "mdate": "2017-05-26",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Petros Belsis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Stefanos Gritzalis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Apostolos Malatras"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Ioannis Chalaris"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Enhancing Knowledge Management Through the Use of GIS and Multimedia."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "PAKM"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "319-329"
+              }
+            ],
+            "years": [
+              {
+                "value": "2004"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/pakm/pakm2004.html#BelsisGMSC04"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "https://doi.org/10.1007/978-3-540-30545-3_30"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/pakm/2004"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/iceis/KaranikolasS03",
+            "mdate": "2017-02-02",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Nikitas Karanikolas"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "Shifting From Legacy Systems to a Data Mart and Computer Assisted Information Resources Navigation            Framework.        "
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "ICEIS (1)"
+              }
+            ],
+            "pages": [
+              {
+                "type": null,
+                "value": "300-305"
+              }
+            ],
+            "years": [
+              {
+                "value": "2003"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/iceis/iceis2003-1.html#KaranikolasS03"
+              }
+            ],
+            "ees": null,
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/iceis/2003"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      },
+      {
+        "mdate": null,
+        "articles": null,
+        "inproceedings": [
+          {
+            "key": "conf/wscg/MiaoulisPMS00",
+            "mdate": "2013-07-24",
+            "publtype": null,
+            "cdate": null,
+            "authors": [
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "George Miaoulis"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitri Plemenos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Dimitri Magos"
+              },
+              {
+                "aux": null,
+                "bibtex": null,
+                "orcid": null,
+                "value": "Christos Skourlas"
+              }
+            ],
+            "editors": null,
+            "titles": [
+              {
+                "bibtex": null,
+                "value": "The MultiCAD Project: Towards an Intelligent Multimedia Information System for CAD."
+              }
+            ],
+            "booktitles": [
+              {
+                "value": "WSCG"
+              }
+            ],
+            "pages": null,
+            "years": [
+              {
+                "value": "2000"
+              }
+            ],
+            "addresses": null,
+            "journals": null,
+            "volumes": null,
+            "numbers": null,
+            "months": null,
+            "urls": [
+              {
+                "aux": null,
+                "value": "db/conf/wscg/wscg2000.html#MiaoulisPMS00"
+              }
+            ],
+            "ees": [
+              {
+                "aux": null,
+                "value": "http://wscg.zcu.cz/wscg2000/Papers_2000/W29.ps.gz"
+              }
+            ],
+            "cdroms": null,
+            "cites": null,
+            "publishers": null,
+            "notes": null,
+            "crossrefs": [
+              {
+                "value": "conf/wscg/2000"
+              }
+            ],
+            "isbns": null,
+            "series": null,
+            "schools": null,
+            "chapters": null,
+            "publnrs": null
+          }
+        ],
+        "proceedings": null,
+        "books": null,
+        "incollections": null,
+        "phdthesis": null,
+        "mastersthesis": null,
+        "www": null,
+        "persons": null,
+        "data": null
+      }
+    ]
+  }
+}

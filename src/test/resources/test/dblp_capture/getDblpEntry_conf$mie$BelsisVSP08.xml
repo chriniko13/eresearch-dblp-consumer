@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/mie/BelsisVSP08" mdate="2017-05-17">
+        <author>Petros Belsis</author>
+        <author>Dimitris Vassis</author>
+        <author>Christos Skourlas</author>
+        <author>Grammati E. Pantziou</author>
+        <title>Secure dissemination of electronic healthcare records in distributed wireless environments.</title>
+        <booktitle>MIE</booktitle>
+        <pages>661-666</pages>
+        <year>2008</year>
+        <url>db/conf/mie/mie2008.html#BelsisVSP08</url>
+        <ee>https://doi.org/10.3233/978-1-58603-864-9-661</ee>
+        <crossref>conf/mie/2008</crossref>
+    </inproceedings>
+</dblp>

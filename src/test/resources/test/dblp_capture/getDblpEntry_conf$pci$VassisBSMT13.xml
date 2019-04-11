@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/VassisBSMT13" mdate="2018-11-06">
+        <author>Dimitris Vassis</author>
+        <author>Petros Belsis</author>
+        <author>Christos Skourlas</author>
+        <author>Catherine Marinagi</author>
+        <author>Vassilis Tsoukalas</author>
+        <title>Secure mobile assessment of deaf and hard-of-hearing and dyslexic students in higher education.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>311-318</pages>
+        <year>2013</year>
+        <url>db/conf/pci/pci2013.html#VassisBSMT13</url>
+        <ee>https://doi.org/10.1145/2491845.2491891</ee>
+        <crossref>conf/pci/2013</crossref>
+    </inproceedings>
+</dblp>

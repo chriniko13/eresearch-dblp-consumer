@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/SkourlasDL15" mdate="2018-11-21">
+        <author>Christos Skourlas</author>
+        <author orcid="0000-0002-5441-0086">Dimitrios A. Dervos</author>
+        <author>Martti Laiho</author>
+        <title>Database SQL transactions and learning by verifying in practice: a case study.</title>
+        <booktitle>Panhellenic Conference on Informatics</booktitle>
+        <pages>361-362</pages>
+        <year>2015</year>
+        <url>db/conf/pci/pci2015.html#SkourlasDL15</url>
+        <ee>https://doi.org/10.1145/2801948.2802015</ee>
+        <crossref>conf/pci/2015</crossref>
+    </inproceedings>
+</dblp>

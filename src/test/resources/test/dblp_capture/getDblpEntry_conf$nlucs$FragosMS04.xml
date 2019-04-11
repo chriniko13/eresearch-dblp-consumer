@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/nlucs/FragosMS04" mdate="2004-06-28">
+        <author>Kostas Fragos</author>
+        <author>Yannis Maistros</author>
+        <author>Christos Skourlas</author>
+        <title>Discovering Collocations in Modern Greek Language.</title>
+        <booktitle>NLUCS</booktitle>
+        <pages>151-158</pages>
+        <year>2004</year>
+        <url>db/conf/nlucs/nlucs2004.html#FragosMS04</url>
+        <crossref>conf/nlucs/2004</crossref>
+    </inproceedings>
+</dblp>

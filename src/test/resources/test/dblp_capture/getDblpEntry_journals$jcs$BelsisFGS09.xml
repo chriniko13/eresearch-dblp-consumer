@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <article key="journals/jcs/BelsisFGS09" mdate="2017-05-26">
+        <author>Petros Belsis</author>
+        <author>Kostas Fragos</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <title>Applying effective feature selection techniques with hierarchical mixtures of experts for spam
+            classification.
+        </title>
+        <pages>239-268</pages>
+        <year>2009</year>
+        <journal>Journal of Computer Security</journal>
+        <volume>17</volume>
+        <number>3</number>
+        <url>db/journals/jcs/jcs17.html#BelsisFGS09</url>
+        <ee>https://doi.org/10.3233/JCS-2009-0377</ee>
+    </article>
+</dblp>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/nlucs/FragosS06a" mdate="2006-07-17">
+        <author>Kostas Fragos</author>
+        <author>Christos Skourlas</author>
+        <title>An N-gram Based Distributional Test for Authorship Identification.</title>
+        <booktitle>NLUCS</booktitle>
+        <pages>139-148</pages>
+        <year>2006</year>
+        <url>db/conf/nlucs/nlucs2006.html#FragosS06a</url>
+        <crossref>conf/nlucs/2006</crossref>
+    </inproceedings>
+</dblp>

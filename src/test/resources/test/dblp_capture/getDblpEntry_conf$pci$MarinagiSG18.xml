@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/MarinagiSG18" mdate="2019-01-09">
+        <author>Catherine Marinagi</author>
+        <author>Christos Skourlas</author>
+        <author>Eleni Galiotou</author>
+        <title>Advanced information technology solutions for implementing information sharing across supply chains.
+        </title>
+        <booktitle>PCI</booktitle>
+        <pages>99-102</pages>
+        <year>2018</year>
+        <url>db/conf/pci/pci2018.html#MarinagiSG18</url>
+        <ee>https://doi.org/10.1145/3291533.3291575</ee>
+        <crossref>conf/pci/2018</crossref>
+    </inproceedings>
+</dblp>

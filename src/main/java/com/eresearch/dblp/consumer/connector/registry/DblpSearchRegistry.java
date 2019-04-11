@@ -1,21 +1,24 @@
 package com.eresearch.dblp.consumer.connector.registry;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Optional;
-import java.util.function.Function;
-
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
-
-import org.springframework.stereotype.Component;
-
+import com.eresearch.dblp.consumer.connector.context.DblpJAXBContextsHolder;
 import com.eresearch.dblp.consumer.dto.DblpConsumerDto;
 import com.eresearch.dblp.consumer.dto.dblp.author.DblpAuthor;
 import com.eresearch.dblp.consumer.dto.dblp.author.DblpAuthors;
 import com.eresearch.dblp.consumer.dto.dblp.entry.generated.Dblp;
 import com.eresearch.dblp.consumer.dto.dblp.publication.DblpKey;
 import com.eresearch.dblp.consumer.dto.dblp.publication.DblpPerson;
+import com.eresearch.dblp.consumer.service.CaptureDblpResponseService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.StringWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Optional;
 
 /*
  NOTE:
@@ -34,16 +37,25 @@ import com.eresearch.dblp.consumer.dto.dblp.publication.DblpPerson;
 @Component
 public class DblpSearchRegistry {
 
-    private static final Function<String, String> DBLP_AUTHOR_SEARCH_URL_MAKER
-            = authorName -> "https://dblp.uni-trier.de/search/author?xauthor=" + authorName;
-
-    private static final Function<String, String> DBLP_AUTHOR_LOAD_PUBLICATIONS_URL_MAKER
-            = urlpt -> "https://dblp.uni-trier.de/rec/pers/" + urlpt + "/xk";
-
-    private static final Function<String, String> DBLP_ENTRY_FETCH_URL_MAKER
-            = dblpKeyValue -> "https://dblp.uni-trier.de/rec/bibtex/" + dblpKeyValue + ".xml";
-
     private static final String DASH = " ";
+
+    @Value("${dblp-search-registry.capture-dblp-reponse}")
+    private boolean captureDblpResponse;
+
+    @Value("${dblp-author-search.url-placeholder}")
+    private String dblpAuthorSearchUrlPlaceholder;
+
+    @Value("${dblp-author-load-publications.url-placeholder}")
+    private String dblpAuthorLoadPublicationsUrlPlaceholder;
+
+    @Value("${dblp-entry-fetch.url-placeholder}")
+    private String dblpEntryFetchUrlPlaceholder;
+
+    @Autowired
+    private CaptureDblpResponseService captureDblpResponseService;
+
+    @Autowired
+    private DblpJAXBContextsHolder dblpJAXBContextsHolder;
 
     /*
         Note: authorName = firstname + initials + surname.
@@ -61,40 +73,67 @@ public class DblpSearchRegistry {
     public DblpAuthors getDblpAuthors(Unmarshaller dblpAuthorsUnmarshaller, String authorName)
             throws MalformedURLException, JAXBException {
 
-        URL dblpAuthorSearchUrl = new URL(this.getDblpAuthorSearchUrl(authorName));
+        URL dblpAuthorSearchUrl = new URL(dblpAuthorSearchUrlPlaceholder.replace("__PLACEHOLDER__", authorName));
+        DblpAuthors result = (DblpAuthors) dblpAuthorsUnmarshaller.unmarshal(dblpAuthorSearchUrl);
 
-        return (DblpAuthors) dblpAuthorsUnmarshaller.unmarshal(dblpAuthorSearchUrl);
+        if (captureDblpResponse) {
+            Marshaller marshaller = dblpJAXBContextsHolder.getDblpAuthorsJaxbContext().createMarshaller();
+            StringWriter stringWriter = new StringWriter();
+            marshaller.marshal(result, stringWriter);
+
+            captureDblpResponseService.log(
+                    "getDblpAuthors_" + authorName,
+                    stringWriter.toString(),
+                    "xml"
+            );
+        }
+        return result;
     }
 
     public DblpPerson getDblpAuthorPublications(Unmarshaller dblpPersonUnmarshaller, DblpAuthor dblpAuthor)
             throws MalformedURLException, JAXBException {
 
         String urlpt = dblpAuthor.getUrlpt();
-        String dblpAuthorPublicationsUrl = this.getDblpAuthorLoadPublicationsUrl(urlpt);
-        URL dblpAuthorPublicationsResource = new URL(dblpAuthorPublicationsUrl);
+        String dblpAuthorPublicationsUrl = dblpAuthorLoadPublicationsUrlPlaceholder.replace("__PLACEHOLDER__", urlpt);
 
-        return (DblpPerson) dblpPersonUnmarshaller.unmarshal(dblpAuthorPublicationsResource);
+        URL dblpAuthorPublicationsResource = new URL(dblpAuthorPublicationsUrl);
+        DblpPerson result = (DblpPerson) dblpPersonUnmarshaller.unmarshal(dblpAuthorPublicationsResource);
+
+        if (captureDblpResponse) {
+            Marshaller marshaller = dblpJAXBContextsHolder.getDblpPersonJaxbContext().createMarshaller();
+            StringWriter stringWriter = new StringWriter();
+            marshaller.marshal(result, stringWriter);
+
+            captureDblpResponseService.log(
+                    "getDblpAuthorPublications_" + urlpt.replaceAll("/", "\\$"),
+                    stringWriter.toString(),
+                    "xml"
+            );
+        }
+        return result;
     }
 
     public Dblp getDblpEntry(Unmarshaller dblpUnmarshaller, DblpKey dblpKey)
             throws MalformedURLException, JAXBException {
 
         String dblpKeyValue = dblpKey.getValue();
-        String dblpEntryUrl = this.getDblpEntryFetchUrl(dblpKeyValue);
+        String dblpEntryUrl = dblpEntryFetchUrlPlaceholder.replace("__PLACEHOLDER__", dblpKeyValue);
+
         URL dblpEntryResource = new URL(dblpEntryUrl);
+        Dblp result = (Dblp) dblpUnmarshaller.unmarshal(dblpEntryResource);
 
-        return (Dblp) dblpUnmarshaller.unmarshal(dblpEntryResource);
+        if (captureDblpResponse) {
+            Marshaller marshaller = dblpJAXBContextsHolder.getDblpJaxbContext().createMarshaller();
+            StringWriter stringWriter = new StringWriter();
+            marshaller.marshal(result, stringWriter);
+
+            captureDblpResponseService.log(
+                    "getDblpEntry_" + dblpKeyValue.replaceAll("/", "\\$"),
+                    stringWriter.toString(),
+                    "xml"
+            );
+        }
+        return result;
     }
 
-    private String getDblpAuthorSearchUrl(String authorName) {
-        return DBLP_AUTHOR_SEARCH_URL_MAKER.apply(authorName);
-    }
-
-    private String getDblpAuthorLoadPublicationsUrl(String urlpt) {
-        return DBLP_AUTHOR_LOAD_PUBLICATIONS_URL_MAKER.apply(urlpt);
-    }
-
-    private String getDblpEntryFetchUrl(String dblpKeyValue) {
-        return DBLP_ENTRY_FETCH_URL_MAKER.apply(dblpKeyValue);
-    }
 }

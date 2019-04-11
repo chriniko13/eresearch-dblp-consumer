@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/iceis/BelsisGSD04" mdate="2017-02-02">
+        <author>Petros Belsis</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <author>Ioannis Drakopoulos</author>
+        <title>Implementing Knowledge Management Techniques for Security Purposes.</title>
+        <booktitle>ICEIS (2)</booktitle>
+        <pages>535-540</pages>
+        <year>2004</year>
+        <url>db/conf/iceis/iceis2004-2.html#BelsisGSD04</url>
+        <crossref>conf/iceis/2004</crossref>
+    </inproceedings>
+</dblp>

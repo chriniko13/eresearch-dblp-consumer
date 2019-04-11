@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/Anagnostopoulos17" mdate="2018-11-06">
+        <author>Theodoros Anagnostopoulos</author>
+        <author>Klimis S. Ntalianis</author>
+        <author>Christos Skourlas</author>
+        <author>Inna Sosunova</author>
+        <author>Petr Fedchenkov</author>
+        <author>Arkady B. Zaslavsky</author>
+        <title>ToA estimation system for efficient cycling in Smart Cities.</title>
+        <booktitle>PCI</booktitle>
+        <pages>60:1-60:4</pages>
+        <year>2017</year>
+        <url>db/conf/pci/pci2017.html#Anagnostopoulos17</url>
+        <ee>https://doi.org/10.1145/3139367.3139412</ee>
+        <crossref>conf/pci/2017</crossref>
+    </inproceedings>
+</dblp>

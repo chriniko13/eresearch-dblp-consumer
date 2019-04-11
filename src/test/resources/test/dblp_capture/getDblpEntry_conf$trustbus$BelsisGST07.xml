@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/trustbus/BelsisGST07" mdate="2017-05-26">
+        <author>Petros Belsis</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <author>Vassilis Tsoukalas</author>
+        <title>Design and Implementation of Distributed Access Control Infrastructures for Federations of Autonomous
+            Domains.
+        </title>
+        <booktitle>TrustBus</booktitle>
+        <pages>125-134</pages>
+        <year>2007</year>
+        <url>db/conf/trustbus/trustbus2007.html#BelsisGST07</url>
+        <ee>https://doi.org/10.1007/978-3-540-74409-2_15</ee>
+        <crossref>conf/trustbus/2007</crossref>
+    </inproceedings>
+</dblp>

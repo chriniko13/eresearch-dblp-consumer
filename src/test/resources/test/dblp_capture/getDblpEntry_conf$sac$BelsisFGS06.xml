@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/sac/BelsisFGS06" mdate="2018-11-06">
+        <author>Petros Belsis</author>
+        <author>Kostas Fragos</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <title>SF-HME system: a hierarchical mixtures-of-experts classification system for spam filtering.</title>
+        <booktitle>SAC</booktitle>
+        <pages>354-360</pages>
+        <year>2006</year>
+        <url>db/conf/sac/sac2006.html#BelsisFGS06</url>
+        <ee>https://doi.org/10.1145/1141277.1141360</ee>
+        <crossref>conf/sac/2006</crossref>
+    </inproceedings>
+</dblp>

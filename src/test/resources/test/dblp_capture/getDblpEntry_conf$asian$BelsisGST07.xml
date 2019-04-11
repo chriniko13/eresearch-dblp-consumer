@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/asian/BelsisGST07" mdate="2017-05-26">
+        <author>Petros Belsis</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Christos Skourlas</author>
+        <author>Vassilis Tsoukalas</author>
+        <title>Managing Uncertainty in Access Control Decisions in Distributed Autonomous Collaborative Environments.
+        </title>
+        <booktitle>ASIAN</booktitle>
+        <pages>261-267</pages>
+        <year>2007</year>
+        <url>db/conf/asian/asian2007.html#BelsisGST07</url>
+        <ee>https://doi.org/10.1007/978-3-540-76929-3_25</ee>
+        <crossref>conf/asian/2007</crossref>
+    </inproceedings>
+</dblp>

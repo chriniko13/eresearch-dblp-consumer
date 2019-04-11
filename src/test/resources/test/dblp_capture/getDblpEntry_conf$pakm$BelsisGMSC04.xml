@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pakm/BelsisGMSC04" mdate="2017-05-26">
+        <author>Petros Belsis</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Apostolos Malatras</author>
+        <author>Christos Skourlas</author>
+        <author>Ioannis Chalaris</author>
+        <title>Enhancing Knowledge Management Through the Use of GIS and Multimedia.</title>
+        <booktitle>PAKM</booktitle>
+        <pages>319-329</pages>
+        <year>2004</year>
+        <url>db/conf/pakm/pakm2004.html#BelsisGMSC04</url>
+        <ee>https://doi.org/10.1007/978-3-540-30545-3_30</ee>
+        <crossref>conf/pakm/2004</crossref>
+    </inproceedings>
+</dblp>

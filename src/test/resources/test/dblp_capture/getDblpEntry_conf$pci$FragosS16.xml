@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/FragosS16" mdate="2017-02-15">
+        <author>Kostas Fragos</author>
+        <author>Christos Skourlas</author>
+        <title>Smoothing Class Frequencies for KNN Medical Article Classification.</title>
+        <booktitle>PCI</booktitle>
+        <pages>79</pages>
+        <year>2016</year>
+        <url>db/conf/pci/pci2016.html#FragosS16</url>
+        <ee>http://dl.acm.org/citation.cfm?id=3003806</ee>
+        <crossref>conf/pci/2016</crossref>
+    </inproceedings>
+</dblp>

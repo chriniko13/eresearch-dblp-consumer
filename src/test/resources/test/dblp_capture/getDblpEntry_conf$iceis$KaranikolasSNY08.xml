@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/iceis/KaranikolasSNY08" mdate="2008-08-13">
+        <author>Nikitas Karanikolas</author>
+        <author>Christos Skourlas</author>
+        <author>Maria Nitsiou</author>
+        <author>Emmanuel J. Yannakoudakis</author>
+        <title>Conceptual Universal Database Language (CUDL) and Enterprise Medical Information Systems.</title>
+        <booktitle>ICEIS (1)</booktitle>
+        <pages>362-367</pages>
+        <year>2008</year>
+        <url>db/conf/iceis/iceis2008-1.html#KaranikolasSNY08</url>
+        <crossref>conf/iceis/2008-1</crossref>
+    </inproceedings>
+</dblp>

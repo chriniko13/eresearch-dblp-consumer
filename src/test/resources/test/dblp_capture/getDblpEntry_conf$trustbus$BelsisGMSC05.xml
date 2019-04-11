@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/trustbus/BelsisGMSC05" mdate="2017-05-26">
+        <author>Petros Belsis</author>
+        <author>Stefanos Gritzalis</author>
+        <author>Apostolos Malatras</author>
+        <author>Christos Skourlas</author>
+        <author>Ioannis Chalaris</author>
+        <title>Sec-Shield: Security Preserved Distributed Knowledge Management Between Autonomous Domains.</title>
+        <booktitle>TrustBus</booktitle>
+        <pages>10-19</pages>
+        <year>2005</year>
+        <url>db/conf/trustbus/trustbus2005.html#BelsisGMSC05</url>
+        <ee>https://doi.org/10.1007/11537878_2</ee>
+        <crossref>conf/trustbus/2005</crossref>
+    </inproceedings>
+</dblp>

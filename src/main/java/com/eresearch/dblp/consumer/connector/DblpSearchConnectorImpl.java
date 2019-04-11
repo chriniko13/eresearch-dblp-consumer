@@ -17,6 +17,7 @@ import com.eresearch.dblp.consumer.metrics.entries.ConnectorLayerMetricEntry;
 import lombok.extern.log4j.Log4j;
 import net.jodah.failsafe.Failsafe;
 import net.jodah.failsafe.RetryPolicy;
+import net.jodah.failsafe.function.CheckedConsumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -57,7 +58,10 @@ public class DblpSearchConnectorImpl implements DblpSearchConnector {
 
             return Failsafe
                     .with(basicRetryPolicy)
-                    .withFallback(() -> {
+                    .withFallback((CheckedConsumer<? extends Throwable>) error -> {
+
+                        log.error("dblp search connector error occurred, " + error.getMessage(), error);
+
                         throw new BusinessProcessingException(
                                 EresearchDblpConsumerError.CONNECTOR_CONNECTION_ERROR,
                                 EresearchDblpConsumerError.CONNECTOR_CONNECTION_ERROR.getMessage());

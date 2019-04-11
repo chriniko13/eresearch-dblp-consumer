@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/iceis/AlevizosKPSB07" mdate="2008-01-14">
+        <author>Theodoros Alevizos</author>
+        <author>Vassilis G. Kaburlasos</author>
+        <author>Stelios E. Papadakis</author>
+        <author>Christos Skourlas</author>
+        <author>Petros Belsis</author>
+        <title>Fuzzy Interval Number (FIN) Techniques for Multilingual and Cross Language Information Retrieval.</title>
+        <booktitle>ICEIS (2)</booktitle>
+        <pages>348-355</pages>
+        <year>2007</year>
+        <url>db/conf/iceis/iceis2007-2.html#AlevizosKPSB07</url>
+        <crossref>conf/iceis/2007-2</crossref>
+    </inproceedings>
+</dblp>

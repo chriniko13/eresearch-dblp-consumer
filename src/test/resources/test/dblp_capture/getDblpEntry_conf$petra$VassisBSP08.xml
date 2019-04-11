@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/petra/VassisBSP08" mdate="2018-11-06">
+        <author>Dimitris Vassis</author>
+        <author>Petros Belsis</author>
+        <author>Christos Skourlas</author>
+        <author>Grammati E. Pantziou</author>
+        <title>A pervasive architectural framework for providing remote medical treatment.</title>
+        <booktitle>PETRA</booktitle>
+        <pages>23</pages>
+        <year>2008</year>
+        <url>db/conf/petra/petra2008.html#VassisBSP08</url>
+        <ee>https://doi.org/10.1145/1389586.1389614</ee>
+        <crossref>conf/petra/2008</crossref>
+    </inproceedings>
+</dblp>

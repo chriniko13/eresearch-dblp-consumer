@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/iceis/KaranikolasS03" mdate="2017-02-02">
+        <author>Nikitas Karanikolas</author>
+        <author>Christos Skourlas</author>
+        <title>Shifting From Legacy Systems to a Data Mart and Computer Assisted Information Resources Navigation
+            Framework.
+        </title>
+        <booktitle>ICEIS (1)</booktitle>
+        <pages>300-305</pages>
+        <year>2003</year>
+        <url>db/conf/iceis/iceis2003-1.html#KaranikolasS03</url>
+        <crossref>conf/iceis/2003</crossref>
+    </inproceedings>
+</dblp>

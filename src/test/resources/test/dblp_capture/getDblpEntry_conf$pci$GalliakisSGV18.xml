@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/GalliakisSGV18" mdate="2019-01-09">
+        <author>Michael Galliakis</author>
+        <author>Christos Skourlas</author>
+        <author>Eleni Galiotou</author>
+        <author>Ioannis Voyiatzis</author>
+        <title>A low-cost smart home for the assistance of elderly persons and patients.</title>
+        <booktitle>PCI</booktitle>
+        <pages>93-98</pages>
+        <year>2018</year>
+        <url>db/conf/pci/pci2018.html#GalliakisSGV18</url>
+        <ee>https://doi.org/10.1145/3291533.3291578</ee>
+        <crossref>conf/pci/2018</crossref>
+    </inproceedings>
+</dblp>

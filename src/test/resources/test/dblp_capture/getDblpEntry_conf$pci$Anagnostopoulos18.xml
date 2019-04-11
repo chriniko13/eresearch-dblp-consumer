@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/pci/Anagnostopoulos18" mdate="2019-01-09">
+        <author>Theodoros Anagnostopoulos</author>
+        <author>Klimis S. Ntalianis</author>
+        <author>Christos Skourlas</author>
+        <author>S. R. Jino Ramson</author>
+        <title>IoT-enabled fall verification of elderly and impaired people in smart cities.</title>
+        <booktitle>PCI</booktitle>
+        <pages>88-92</pages>
+        <year>2018</year>
+        <url>db/conf/pci/pci2018.html#Anagnostopoulos18</url>
+        <ee>https://doi.org/10.1145/3291533.3291553</ee>
+        <crossref>conf/pci/2018</crossref>
+    </inproceedings>
+</dblp>

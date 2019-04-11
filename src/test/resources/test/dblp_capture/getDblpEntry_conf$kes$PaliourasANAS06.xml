@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/kes/PaliourasANAS06" mdate="2017-05-21">
+        <author>Georgios Paliouras</author>
+        <author>Alexandros Mouzakidis</author>
+        <author>Christos Ntoutsis</author>
+        <author>Angelos Alexopoulos</author>
+        <author>Christos Skourlas</author>
+        <title>PNS: Personalized Multi-source News Delivery.</title>
+        <booktitle>KES (2)</booktitle>
+        <pages>1152-1161</pages>
+        <year>2006</year>
+        <url>db/conf/kes/kes2006-2.html#PaliourasANAS06</url>
+        <ee>https://doi.org/10.1007/11893004_146</ee>
+        <crossref>conf/kes/2006-2</crossref>
+    </inproceedings>
+</dblp>

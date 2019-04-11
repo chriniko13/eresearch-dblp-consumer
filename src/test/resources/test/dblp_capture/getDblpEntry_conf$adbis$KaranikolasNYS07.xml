@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/adbis/KaranikolasNYS07" mdate="2008-05-29">
+        <author>Nikitas Karanikolas</author>
+        <author>Maria Nitsiou</author>
+        <author>Emmanuel J. Yannakoudakis</author>
+        <author>Christos Skourlas</author>
+        <title>CUDL Language Semantics, Liven Up the FDB Data Model.</title>
+        <booktitle>ADBIS Research Communications</booktitle>
+        <year>2007</year>
+        <url>db/conf/adbis/adbis2007l.html#KaranikolasNYS07</url>
+        <ee>http://ceur-ws.org/Vol-325/paper01.pdf</ee>
+        <crossref>conf/adbis/2007l</crossref>
+    </inproceedings>
+</dblp>

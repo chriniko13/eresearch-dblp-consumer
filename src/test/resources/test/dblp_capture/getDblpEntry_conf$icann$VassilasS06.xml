@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/icann/VassilasS06" mdate="2017-05-26">
+        <author>Nikolaos Vassilas</author>
+        <author>Christos Skourlas</author>
+        <title>Content-Based Coin Retrieval Using Invariant Features and Self-organizing Maps.</title>
+        <booktitle>ICANN (2)</booktitle>
+        <pages>113-122</pages>
+        <year>2006</year>
+        <url>db/conf/icann/icann2006-2.html#VassilasS06</url>
+        <ee>https://doi.org/10.1007/11840930_12</ee>
+        <crossref>conf/icann/2006-2</crossref>
+    </inproceedings>
+</dblp>

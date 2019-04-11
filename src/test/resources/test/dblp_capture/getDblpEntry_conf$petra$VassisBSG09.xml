@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dblp>
+    <inproceedings key="conf/petra/VassisBSG09" mdate="2018-11-06">
+        <author>Dimitris Vassis</author>
+        <author>Petros Belsis</author>
+        <author>Christos Skourlas</author>
+        <author>Stefanos Gritzalis</author>
+        <title>End to end secure communication in ad-hoc assistive medical environments using secure paths.</title>
+        <booktitle>PETRA</booktitle>
+        <year>2009</year>
+        <url>db/conf/petra/petra2009.html#VassisBSG09</url>
+        <ee>https://doi.org/10.1145/1579114.1579184</ee>
+        <crossref>conf/petra/2009</crossref>
+    </inproceedings>
+</dblp>
