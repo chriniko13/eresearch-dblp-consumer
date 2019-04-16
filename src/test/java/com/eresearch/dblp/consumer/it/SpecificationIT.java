@@ -2,11 +2,14 @@ package com.eresearch.dblp.consumer.it;
 
 
 import com.eresearch.dblp.consumer.EresearchDblpConsumerApplication;
+import com.eresearch.dblp.consumer.application.configuration.JmsConfiguration;
 import com.eresearch.dblp.consumer.core.FileSupport;
 import com.eresearch.dblp.consumer.dto.DblpConsumerDto;
+import com.eresearch.dblp.consumer.dto.DblpQueueResultDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.awaitility.Awaitility;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
@@ -17,11 +20,17 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.skyscreamer.jsonassert.comparator.CustomComparator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
+
+import javax.jms.*;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
+
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 
 @SpringBootTest(
@@ -33,6 +42,8 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 @RunWith(SpringRunner.class)
 public class SpecificationIT {
 
+    @Value("${spring.activemq.broker-url}")
+    private String activeMqBrokerUrl;
 
     @LocalServerPort
     private int port;
@@ -52,7 +63,6 @@ public class SpecificationIT {
 
     @Test
     public void dblp_consumption_works_as_expected() throws Exception {
-        Assert.assertEquals(1, 1);
 
         // given
         String dblpConsumerDtoAsString = FileSupport.getResource("test/first_case_input.json");
@@ -87,19 +97,88 @@ public class SpecificationIT {
 
     }
 
-    //TODO
-    @Test
-    public void dblp_consumption_works_as_expected_async_queue() {
-        Assert.assertEquals(1, 1);
 
+    @Test
+    public void dblp_consumption_works_as_expected_async_queue() throws Exception {
 
         // given
+        String dblpConsumerDtoAsString = FileSupport.getResource("test/first_case_input.json");
 
+        DblpConsumerDto dblpConsumerDto = objectMapper.readValue(dblpConsumerDtoAsString, DblpConsumerDto.class);
+
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.add("Content-Type", "application/json");
+        httpHeaders.add("Transaction-Id", UUID.randomUUID().toString());
+
+        HttpEntity<DblpConsumerDto> httpEntity = new HttpEntity<>(dblpConsumerDto, httpHeaders);
+
+        mockDblp();
 
         // when
-
+        ResponseEntity<String> responseEntity = restTemplate.exchange(
+                "http://localhost:" + port + "/dblp-consumer/find-q",
+                HttpMethod.POST,
+                httpEntity,
+                String.class);
 
         // then
+        Assert.assertNotNull(responseEntity.getBody());
+
+        String body = responseEntity.getBody();
+        JSONAssert.assertEquals("{\"message\":\"Response will be written in queue.\"}", body, true);
+
+
+        // Getting JMS connection from the server
+        ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(activeMqBrokerUrl);
+        Connection connection = connectionFactory.createConnection();
+        connection.start();
+
+        // Creating session for seding messages
+        Session session = connection.createSession(false, Session.CLIENT_ACKNOWLEDGE);
+
+        // Getting the queue
+        Queue destination = session.createQueue(JmsConfiguration.QUEUES.DBLP_RESULTS_QUEUE);
+
+        // MessageConsumer is used for receiving (consuming) messages
+        MessageConsumer consumer = session.createConsumer(destination);
+
+        final String expected = FileSupport.getResource("test/first_case_output_queue.json");
+
+
+        Awaitility.await()
+                .atMost(30, TimeUnit.SECONDS)
+                .until(() -> {
+
+                    Message message = consumer.receive();
+                    if (message instanceof TextMessage) {
+
+                        TextMessage textMessage = (TextMessage) message;
+                        String text = textMessage.getText();
+
+                        DblpQueueResultDto dblpQueueResultDto = objectMapper.readValue(text, DblpQueueResultDto.class);
+                        String result = objectMapper.writeValueAsString(dblpQueueResultDto);
+                        System.out.println(">>> RESULT: " + result);
+
+                        try {
+
+                            JSONAssert.assertEquals(expected, text,
+                                    new CustomComparator(JSONCompareMode.STRICT,
+                                            new Customization("dblpResultsDto.process-finished-date", (o1, o2) -> true),
+                                            new Customization("transactionId", (o1, o2) -> true))
+                            );
+
+                            return true;
+                        } catch (AssertionError error) {
+                            error.printStackTrace();
+                            return false;
+                        } finally {
+                            message.acknowledge();
+                        }
+
+                    }
+
+                    return false;
+                });
 
     }
 
