@@ -93,7 +93,7 @@ public class SpecificationIT {
 
 
         JSONAssert.assertEquals(expected, responseEntity.getBody(),
-                new CustomComparator(JSONCompareMode.LENIENT, new Customization("process-finished-date", (o1, o2) -> true)));
+                new CustomComparator(JSONCompareMode.STRICT, new Customization("process-finished-date", (o1, o2) -> true)));
 
     }
 
