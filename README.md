@@ -20,9 +20,9 @@ which returns a detailed dblp entry (which is what we are looking for) then we r
 
 ### External Dependencies needed in order to run service
 
-* MySQL && ActiveMQ
-    * Execute: `docker-compose up` in order to have a running instance of MySQL DB.
-    * Execute: `docker-compose down` in order to shutdown MySQL DB.
+* ActiveMQ
+    * Execute: `docker-compose up`
+    * Execute: `docker-compose down`
 
 
 ### Integration Tests (run docker-compose first)

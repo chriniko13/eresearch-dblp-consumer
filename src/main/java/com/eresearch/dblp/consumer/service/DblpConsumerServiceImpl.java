@@ -10,7 +10,6 @@ import com.eresearch.dblp.consumer.dto.dblp.author.DblpAuthor;
 import com.eresearch.dblp.consumer.dto.dblp.entry.generated.Dblp;
 import com.eresearch.dblp.consumer.exception.BusinessProcessingException;
 import com.eresearch.dblp.consumer.metrics.entries.ServiceLayerMetricEntry;
-import com.eresearch.dblp.consumer.repository.DblpConsumerRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.log4j.Log4j;
@@ -31,17 +30,11 @@ public class DblpConsumerServiceImpl implements DblpConsumerService {
     @Value("${dblp.consumer.multithread.approach}")
     private String dblpConsumerMultithreadApproach;
 
-    @Value("${enable.persistence.results}")
-    private String enablePersistenceForResults;
-
     @Autowired
     private Map<String, DblpSearchConnector> dblpSearchConnectorStrategies;
 
     @Autowired
     private Clock clock;
-
-    @Autowired
-    private DblpConsumerRepository dblpConsumerRepository;
 
     @Autowired
     private ServiceLayerMetricEntry serviceLayerMetricEntry;
@@ -69,10 +62,6 @@ public class DblpConsumerServiceImpl implements DblpConsumerService {
             result.setResults(dblpResults);
             result.setOperationResult(Boolean.TRUE);
             result.setProcessFinishedDate(Instant.now(clock));
-
-            if (Boolean.valueOf(enablePersistenceForResults)) {
-                dblpConsumerRepository.save(dblpConsumerDto, result);
-            }
 
             return result;
 

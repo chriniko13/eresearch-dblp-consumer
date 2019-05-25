@@ -1,8 +1,6 @@
 package com.eresearch.dblp.consumer;
 
 import com.eresearch.dblp.consumer.application.listener.*;
-import com.eresearch.dblp.consumer.db.DbOperations;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.CommandLineRunner;
@@ -42,12 +40,8 @@ public class EresearchDblpConsumerApplication implements CommandLineRunner, Appl
 
     }
 
-    @Autowired
-    private DbOperations dbOperations;
-
     @Override
     public void run(String... args) throws Exception {
-        dbOperations.runTask();
     }
 
     @Override
